@@ -1,6 +1,6 @@
 ##
-name: 'TYPO3 CI Codesniff'
-description: 'GitHub Action that sniffs your code.'
+name: 'TYPO3 CI PHP Codesniffer'
+description: 'GitHub Action that sniffs your PHP code.'
 branding:
   icon: check
   color: orange

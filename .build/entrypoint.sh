@@ -6,10 +6,10 @@ Header() {
   # Prints #
   ##########
   echo "---------------------------------------------"
-  echo "-- GitHub Actions TYPO3 Codesniff ---"
+  echo "-- GitHub Actions TYPO3 PHP Codesniffer ---"
   echo "---------------------------------------------"
-  echo "TYPO3 Codesniff source code can be found at:"
-  echo " - https://github.com/TYPO3-Continuous-Integration/TYPO3-CI-Codesniff"
+  echo "TYPO3 PHP Codesniffer source code can be found at:"
+  echo " - https://github.com/TYPO3-Continuous-Integration/TYPO3-CI-PHP-Codesniffer"
   echo "---------------------------------------------"
 }
 
@@ -19,7 +19,7 @@ Lint() {
   # Prints #
   ##########
   echo "---------------------------------------------"
-  echo "-- Running lint... ---"
+  echo "-- Running codesniffer... ---"
   echo "---------------------------------------------"
   phpcs Classes Configuration Tests
 }
