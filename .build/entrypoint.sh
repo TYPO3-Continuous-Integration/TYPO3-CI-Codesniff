@@ -1,5 +1,9 @@
 #!/bin/sh -l
 
+set -e
+
+input_paths="$1"
+
 ### Function Header ###########################################################
 Header() {
   ##########
@@ -21,7 +25,7 @@ Lint() {
   echo "---------------------------------------------"
   echo "-- Running codesniffer... ---"
   echo "---------------------------------------------"
-  phpcs Classes Configuration Tests
+  sh -c "phpcs $input_paths"
 }
 
 #### Function Footer ###########################################################
