@@ -4,6 +4,11 @@ description: 'GitHub Action that sniffs your PHP code.'
 branding:
   icon: check
   color: orange
+inputs:
+  files:
+    description: 'Files you want to lint.'
+    required: false
+    default: 'Classes Configuration Tests'
 runs:
   using: 'docker'
   image: 'Dockerfile'
